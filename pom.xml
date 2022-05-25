@@ -78,6 +78,10 @@
  			<artifactId>applicationinsights-spring-boot-starter</artifactId>
 			 <version>2.5.1</version>
 		 </dependency>
+		<properties>
+  			<sonar.organization>marlonmo37</sonar.organization>
+  			<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		</properties>
 	</dependencies>
 
 	<build>
